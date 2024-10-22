@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="risultati.php" method="get">
+        <label for="fname">nome:</label><br>
+        <input type="text" name="nome"><br>
+        <label for="lname">cognome:</label><br>
+        <input type="text" name="cognome"><br>
+        <label for="lname">data di nascita:</label><br>
+        <input type="date" name="data"><br>
+        <label for="lname">orario arrivo a casa:</label><br>
+        <input type="time" name="time"><br>
+        <label for="lname">mezzo di trasporto:</label><br>
+        <input type="radio" name="mezzo" value="autobus"> autobus <br>
+        <input type="radio" name="mezzo" value="auto/moto"> auto/moto <br> 
+        <input type="radio" name="mezzo" value="piedi"> piedi <br> 
+        <label for="lname">corso pomeridiano:</label><br>
+        <input type="checkbox" name="corso[]" value="inglese"> corso inglese <br>
+        <input type="checkbox" name="corso[]" value="teatro"> corso di teatro <br> 
+        <input type="checkbox" name="corso[]" value="sport"> attività sportive <br> 
+        <input type="submit">
+      </form>
+</body>
+</html>
