@@ -35,7 +35,7 @@
             <td><?php
             if (isset($_GET["corso"])) {
                 foreach($corsi as $corso){
-                    echo $corso . ", ";
+                    echo $corso . " ";
                 }
             }else{
                 echo $corsi;
